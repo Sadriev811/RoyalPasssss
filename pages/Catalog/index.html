@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catalog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../../media.css">
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+
+    <section class="section_one">
+        <div class="container">
+          <header class="header">
+            <div class="header_right">
+              <div class="burger_bg">
+                <div class="burger_menu">
+                  <span></span>
+                </div>
+              </div>
+              <nav class="header_navbar">
+                <a href="/">Главная</a>
+                <a href="#" id="catalog_btn">Каталог</a>
+                <a href="#">Контакты</a>
+                <a href="#">Стать партнёром</a>
+              </nav>
+            </div>
+            <div class="header_center">
+              <img src="../../img/Group 423.svg" alt="">
+            </div>
+            <div class="header_left" id="header_left">
+              <div class="phone" id="phone">
+                <img src="../../img/phone-call.svg" alt="">
+                <a type="tel" href="+1 347 828 7777">+1 347 828 7777</a>
+              </div>
+              <div class="lang">
+                <p>EN</p>
+                <p>RU</p>
+              </div>
+              <div class="btn--sign">
+                <button class="btn_sign">Регистрация</button>
+              </div>
+            </div>
+          </header>
+          <div class="burger">
+            <div class="burger_into">
+              <div class="header_center">
+                <img src="../../img/Group 423.svg" alt="">
+              </div>
+              <a href="#">Главная</a>
+                <a href="/">Каталог</a>
+                <a href="#">Контакты</a>
+                <a href="#">Стать партнёром</a>
+                <div class="header_left">
+                  <div class="phone">
+                    <img src="../../img/phone-call.svg" alt="">
+                    <a type="tel" href="+1 347 828 7777">+1 347 828 7777</a>
+                  </div>
+                  <div class="lang">
+                    <p>EN</p>
+                    <p>RU</p>
+                  </div>
+                  <div>
+                    <button class="btn_sign">Регистрация</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- gfgnsfjd -->
+
+      <section class="catalog_pages">
+        <div class="container">
+          <div class="catalog_pages_top">
+            <div class="pages_top_p">
+              <p>Главная ></p>
+              <p>Автомобиль в лизинг ></p>
+              <p>Легковые автомобили</p>
+            </div>
+            <div class="catalog_howMany">
+              <h2>Автомобиль в лизинг <span class="HowMany"></span></h2>
+            </div>
+          </div>
+
+          <div class="catalog_filter">
+            <div class="catalog_filter_right">
+              <h2>Поиск машины</h2>
+              <input type="text" class="search" placeholder="Поиск">
+              <h2>Фильтры</h2>
+              <div class="catalog_price">
+                <h3>Цена:</h3>
+                <p class="price_cars"></p>
+              </div>
+              <input type="range" class="range" min="0" max="50000">
+              <div class="catalog_model">
+                <h3>Марка:</h3>
+              <select  class="select_catalog">
+                <option value="">Любая</option>
+              </select>
+              <div class="year_catalog">
+                <h3>Год выпуска:</h3>
+                <select class="catalog_year"></select>
+                <select class="catalog_year"></select>
+              </div>
+              <div class="first_catalog_laster">
+                <h3>Пробег</h3>
+                <select  class="select_catalog select_mile">
+                  <option value="">Любая</option>
+                </select>
+              </div>
+              <div class="second_catalog_laster">
+                <h3>Расход</h3>
+                <select  class="select_catalog">
+                  <option value="">Любая</option>
+                </select>
+              </div>
+              <div class="third_catalog_laster">
+                <h3>Разгон до 100км</h3>
+                <select  class="select_catalog">
+                  <option value="">Любая</option>
+                </select>
+              </div>
+              <div class="buttons">
+                <button id="filter">Filter</button>
+                <button id="reset">Reset</button>
+              </div>
+              </div>
+            </div>
+
+
+
+            <div class="catalog_filter_left"></div>
+          </div>
+        </div>
+      </section>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>

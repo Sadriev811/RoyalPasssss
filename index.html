@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <section class="section_one">
+      <div class="container">
+        <header class="header">
+          <div class="header_right">
+            <div class="burger_bg">
+              <div class="burger_menu">
+                <span></span>
+              </div>
+            </div>
+            <nav class="header_navbar">
+              <a href="/">Главная</a>
+              <a href="#" id="catalog_btn">Каталог</a>
+              <a href="#">Контакты</a>
+              <a href="#">Стать партнёром</a>
+            </nav>
+          </div>
+          <div class="header_center">
+            <img src="img/Group 423.svg" alt="">
+          </div>
+          <div class="header_left" id="header_left">
+            <div class="phone" id="phone">
+              <img src="img/phone-call.svg" alt="">
+              <a type="tel" href="+1 347 828 7777">+1 347 828 7777</a>
+            </div>
+            <div class="lang">
+              <p>EN</p>
+              <p>RU</p>
+            </div>
+            <div class="btn--sign">
+              <button class="btn_sign">Регистрация</button>
+            </div>
+          </div>
+        </header>
+        <div class="burger">
+          <div class="burger_into">
+            <div class="header_center">
+              <img src="img/Group 423.svg" alt="">
+            </div>
+            <a href="#">Главная</a>
+              <a href="/" id="catalog_btn">Каталог</a>
+              <a href="#">Контакты</a>
+              <a href="#">Стать партнёром</a>
+              <div class="header_left">
+                <div class="phone">
+                  <img src="img/phone-call.svg" alt="">
+                  <a type="tel" href="+1 347 828 7777">+1 347 828 7777</a>
+                </div>
+                <div class="lang">
+                  <p>EN</p>
+                  <p>RU</p>
+                </div>
+                <div>
+                  <button class="btn_sign">Регистрация</button>
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <div class="sec_one_intro">
+          <div class="intro_title">
+            <p>Royal Pass - Аренда и каршеринг</p>
+            <h1>ROYAL PASS - МАШИНЫ КОТОРЫЕ 
+              ПОЗВОЛИТ СЕБЕ КАЖДЫЙ </h1>
+          </div>
+          <div class="intro_bottom">
+            <div class="text">
+              <div class="text_r">
+                <b>$</b>
+                <h3>0</h3>
+              </div>
+              <div class="text_l">
+                <p class="text_gray">Сдаем в аренду все марки и модели!</p>
+                <p>В стоимость не включено: первый месяц, плата за приобретение, новое/перенос</p>
+              </div>
+            </div>
+            <div class="btns">
+              <button id="catalog_btn">Перейти к каталогу</button>
+              <button>Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec2 container">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper_top_box">
+          <div class="swiper_top">
+            <div class="swiper_top_left">
+              <a href="#!">Все категории</a>
+              <a href="#!">Хэтчбеки</a>
+              <a href="#!">Кроссоверы</a>
+              <a href="#!">Седаны</a>
+            </div>
+            <div class="swiper_top_right">
+              <div>
+                <input type="text" placeholder="Название тачки" />
+                <div class="search">
+                  <img src="./public/img/swiper_search.png" alt="" />
+                  <p>поиск</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./public/img/cars (1).jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/img/cars (1).png" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/img/cars (1).webp" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./public/img/cars (3).jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+
+<section class="sec3 container">
+      <div class="left">
+        <h3>
+          Уникальное <br />
+          предложение
+        </h3>
+        <p>
+          Машины с уникальными ценами. Станьте одним из первых обладателей
+          уникальных машин с их особенностями.
+        </p>
+        <div>
+          <button id="catalog_btn">Открыть каталог</button>
+          <button>Поиск</button>
+        </div>
+      </div>
+      <div class="right"></div>
+    </section>
+
+    
+    <section class="steps">
+      <div class="container">
+          <div class="steps__top">
+              <p class="steps__text">Как всё происходит</p>
+              <div class="steps__heading">
+                  <h3 class="steps__heading-title">Несколько важных этапов
+                      оформления аренды машины</h3>
+                  <p class="steps__heading-subtitle">Этапы которые мы описываем абсолютно правильные и обязательны для
+                      оформления аренды</p>
+              </div>
+          </div>
+          <div class="steps__line"></div>
+          <div class="steps__bottom">
+              <div class="steps__step">
+                  <div class="steps__step-number">1 шаг</div>
+                  <div class="steps__step-text">Выберите машину которую
+                      вы хотите арендовать</div>
+              </div>
+              <div class="steps__step">
+                  <div class="steps__step-number">2 шаг</div>
+                  <div class="steps__step-text">Выберите на какой срок выхотите арендовать. наш калькулятор сам
+                      подсчитает стоимость</div>
+              </div>
+              <div class="steps__step">
+                  <div class="steps__step-number">3 шаг</div>
+                  <div class="steps__step-text">Оставьте заявку после выбора и подсчёта стоимости, заранее подготовьте
+                      документы на оформление</div>
+              </div>
+              <div class="steps__step">
+                  <div class="steps__step-number">4 шаг</div>
+                  <div class="steps__step-text">Составим договор и обговорим условия аренды, после можете забирать
+                      ключи от вашей машины.</div>
+              </div>
+              <div class="steps__step">
+                  <div class="steps__step-number">5 шаг</div>
+                  <div class="steps__step-text">Составим договор и обговорим условия аренды, после можете забирать
+                      ключи от вашей машины.</div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+<section class="advantages">
+      <div class="container">
+          <div class="advantages__top">
+              <p class="advantages__text">Преимущества компании</p>
+              <div class="advantages__heading">
+                  <h3 class="advantages__heading-title">Выгодные условия</h3>
+                  <p class="advantages__heading-subtitle">Выбирайте транспорт правильно, ведь каждый прожитый день
+                      влияет на ваше время</p>
+              </div>
+              <div class="advantages__buttons">
+                  <button class="advantages__button-form">Заполнить форму</button>
+                  <button class="advantages__button-more">Подробнее</button>
+              </div>
+          </div>
+          <div class="advantages__bottom">
+              <div class="advantages__advantage">
+                  <div class="advantage__circle"></div>
+                  <div class="advantage__text">
+                      <h6 class="advantage-title">Специальные предложения</h6>
+                      <p class="advantage-subtitle">Выберите машину которую
+                          вы хотите арендовать</p>
+                  </div>
+              </div>
+              <div class="advantages__advantage">
+                  <div class="advantage__circle"></div>
+                  <div class="advantage__text">
+                      <h6 class="advantage-title">Идеальное состояние
+                          машин</h6>
+                      <p class="advantage-subtitle">Выберите машину которую
+                          вы хотите арендовать</p>
+                  </div>
+              </div>
+              <div class="advantages__advantage">
+                  <div class="advantage__circle"></div>
+                  <div class="advantage__text">
+                      <h6 class="advantage-title">Поддержка 24/7</h6>
+                      <p class="advantage-subtitle">Выберите машину которую
+                          вы хотите арендовать</p>
+                  </div>
+              </div>
+              <div class="advantages__advantage">
+                  <div class="advantage__circle"></div>
+                  <div class="advantage__text">
+                      <h6 class="advantage-title">Поддержка 24/7</h6>
+                      <p class="advantage-subtitle">Выберите машину которую
+                          вы хотите арендовать</p>
+                  </div>
+              </div>
+              <div class="advantages__advantage">
+                  <div class="advantage__circle"></div>
+                  <div class="advantage__text">
+                      <h6 class="advantage-title">Низкая цена</h6>
+                      <p class="advantage-subtitle">Выберите машину которую
+                          вы хотите арендовать</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="questions">
+      <div class="container">
+          <div class="questions__line"></div>
+          <div class="questions__inner">
+              <div class="questions__heading">
+                  <h3 class="questions__title">Частые вопросы</h3>
+                  <p class="questions__subtitle">С чем чаще всего сталкиваются
+                      наши пользователи</p>
+              </div>
+              <div class="accordeon__wrap">
+                  <div class="questions__accordeon">Кому принадлежат арендуемые машины <span
+                          class="accordeon__arrow"></span></div>
+                  <div class="questions__accordeon-text">Все машины первое время абсолютно новые c салона, а также
+                      есть автомобили которые предлагают, некоторые пользователи</div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+<footer class="footer">
+      <div class="container">
+          <div class="footer__apps">
+              <h2 class="apps__title">Cкачайте наше приложение</h2>
+              <div class="apps__icons">
+                  <a class="apps__icon" href="#"><img src="./img/googleplay.png" alt="googleplay"></a>
+                  <a class="apps__icon" href="#"><img src="./img/appstore.png" alt="appstore"></a>
+              </div>
+          </div>
+
+          <div class="footer__inner">
+              <div class="footer__left">
+                  <p>Все ещё остались вопросы?</p>
+                  <img class="footer__logo" src="./img/footer-logo.svg" alt="Logo">
+                  <button class="footer__button">Стать партнёром</button>
+              </div>
+              <div class="footer__right">
+                  <form class="footer__form">
+                      <h2 class="footer__form-title">Оставьте заявку</h2>
+                      <label>
+                          <p>Ваше имя</p>
+                          <input type="text" placeholder="Николай Федоров">
+                      </label>
+                      <label>
+                          <p>Электронная почта</p>
+                          <input type="text" placeholder="name@email.com">
+                      </label>
+                      <div class="form__bottom">
+                          <div class="footer__form-button">Отправить</div>
+                          <p class="footer__form-text">Авторизуясь вы соглашаетесь с политикой 
+                              обработки персональных данных</p>
+                      </div>
+                  </form>
+                  <div class="footer__parts">
+                      <div class="footer__part">
+                          <h4>Меню</h4>
+                          <a href="#!">Главная</a>
+                          <a href="#!">Каталог</a>
+                          <a href="#!">Лизинг</a>
+                      </div>
+                      <div class="footer__part">
+                          <h4>Cоц сети</h4>
+                          <a href="#!">Instagram</a>
+                          <a href="#!">Facebook</a>
+                          <a href="#!">Telegram</a>
+                      </div>
+                      <div class="footer__part">
+                          <h4>Контакты</h4>
+                          <a href="tel:998911233333">+998911233333</a>
+                          <a href="#!">royalpass@info.com</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+    <section class="secReg">
+      <div class="container">
+        <div class="content">
+          <div class="modal_content">
+            <div class="modal_content_top">
+              <img src="./public/img/secReg (1).png" alt="" />
+              <img src="./public/img/secReg (2).png" alt="" />
+            </div>
+            <div class="modal_content_center">
+              <h2>Регистрация</h2>
+              <p>Войдите с помощью эл.почты либо через Google или Facebook</p>
+              <div class="sing_up">
+                <form name="signUp">
+                  <label>
+                    Ваше имя
+                    <input name="name" type="text" placeholder="Имя" />
+                  </label>
+                  <label>
+                    Ваше фамилия
+                    <input
+                      name="surname"
+                      type="text"
+                      placeholder="Фамилия"
+                    /> </label
+                  ><label>
+                    Ваш email
+                    <input name="email" type="text" placeholder="Email" />
+                  </label>
+                  <label>
+                    Новый пароль
+                    <input name="password" type="text" placeholder="Пароль" />
+                  </label>
+                  <button>Регистрировать</button>
+                </form>
+              </div>
+            </div>
+            <div class="modal_content_bottom">
+              <p>
+                Авторизуясь вы соглашаетесь с политикой обработки персональных
+                данных
+              </p>
+              <span></span>
+              <img src="./public/img/secRegBottom.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

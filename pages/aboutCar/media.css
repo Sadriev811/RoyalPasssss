@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .car_bottom {
+    flex-direction: column;
+  }
+  .car_bottom_bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .car_bottom_right {
+    justify-content: center;
+    align-items: center;
+  }
+  .car_decription {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .car_decription {
+    font-size: 16px;
+  }
+  .car_bottom_right h2,
+  .car_bottom_top h3 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 576px) {
+  .car_bottom_bottom {
+    grid-template-columns: 1fr;
+  }
+  .block {
+    margin: 0 auto;
+  }
+}

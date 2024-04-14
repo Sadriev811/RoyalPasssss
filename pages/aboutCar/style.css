@@ -1,0 +1,135 @@
+main .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+  .car_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+  .car_top p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(128, 128, 128, 1);
+  }
+  .car_top h4 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(71, 71, 71, 1);
+  }
+  .car_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .car_main_img {
+    width: 550px;
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .car_bottom_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+  }
+  .car_bottom_right h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(71, 71, 71, 1) А;
+  }
+  .car_bottom_right h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(71, 71, 71, 1);
+  }
+  .oil_block {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  .oil_block div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .oil_block div p {
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(71, 71, 71, 1);
+  }
+  .oil_block div img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+  .car_decription {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(71, 71, 71, 1);
+  }
+  .price {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(71, 71, 71, 1);
+    padding: 10px 0;
+  }
+  .car_btn {
+    width: 320px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(71, 71, 71, 1);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .bottom {
+    padding-bottom: 100px;
+  }
+  .car_bottom {
+    padding: 50px 0;
+  }
+  .car_bottom_top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  .car_bottom_top h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(18, 18, 18, 1);
+  }
+  .car_bottom_top button {
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .car_bottom_bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
