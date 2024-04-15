@@ -121,15 +121,11 @@ export function reload_abourCar(obj, place) {
   oil_block_left.append(oil_block_left_img, oil_block_left_p);
   oil_block_right.append(oil_block_right_img, oil_block_right_p);
 }
+let burger_bg = document.querySelector('.burger_bg')
+
 // burger menu
-burger_menu.onclick = () => {
-  burger_menu.classList.toggle("active");
-  burger.classList.toggle("burger_active");
-  document.body.classList.toggle("over");
-};
-burger_menu.forEach((elem) => {
-  elem.onclick = () => {
-    burger.classList.remove("burger_active");
-    burger_menu.classList.remove("active");
-  };
-});
+burger_bg.onclick = () => {
+  burger_menu.classList.toggle('active')
+  burger.classList.toggle('burger_active')
+  document.body.classList.toggle('over')
+}
